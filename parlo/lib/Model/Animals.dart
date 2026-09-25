@@ -1,0 +1,186 @@
+import 'package:parlo/Model/Data_Cass.dart';
+List<model> animals = [
+  model(
+    image: 'assets/Images/animals_icons/animals/01_cat.png',
+    textenglish: 'Cat',
+    texItliano: 'Gatto',
+    audio: 'Audies/Animals_words/01_gatto.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/02_dog.png',
+    textenglish: 'Dog',
+    texItliano: 'Cane',
+    audio: 'Audies/Animals_words/02_cane.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/03_lion.png',
+    textenglish: 'Lion',
+    texItliano: 'Leone',
+    audio: 'Audies/Animals_words/03_leone.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/04_tiger.png',
+    textenglish: 'Tiger',
+    texItliano: 'Tigre',
+    audio: 'Audies/Animals_words/04_tigre.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/05_elephant.png',
+    textenglish: 'Elephant',
+    texItliano: 'Elefante',
+    audio: 'Audies/Animals_words/05_elefante.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/06_giraffe.png',
+    textenglish: 'Giraffe',
+    texItliano: 'Giraffa',
+    audio: 'Audies/Animals_words/06_giraffa.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/07_horse.png',
+    textenglish: 'Horse',
+    texItliano: 'Cavallo',
+    audio: 'Audies/Animals_words/07_cavallo.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/08_zebra.png',
+    textenglish: 'Zebra',
+    texItliano: 'Zebra',
+    audio: 'Audies/Animals_words/08_zebra.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/09_cow.png',
+    textenglish: 'Cow',
+    texItliano: 'Mucca',
+    audio: 'Audies/Animals_words/09_mucca.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/10_pig.png',
+    textenglish: 'Pig',
+    texItliano: 'Maiale',
+    audio: 'Audies/Animals_words/10_maiale.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/11_sheep.png',
+    textenglish: 'Sheep',
+    texItliano: 'Pecora',
+    audio: 'Audies/Animals_words/11_pecora.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/12_monkey.png',
+    textenglish: 'Monkey',
+    texItliano: 'Scimmia',
+    audio: 'Audies/Animals_words/12_scimmia.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/13_rabbit.png',
+    textenglish: 'Rabbit',
+    texItliano: 'Coniglio',
+    audio: 'Audies/Animals_words/13_coniglio.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/14_bear.png',
+    textenglish: 'Bear',
+    texItliano: 'Orso',
+    audio: 'Audies/Animals_words/14_orso.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/15_panda.png',
+    textenglish: 'Panda',
+    texItliano: 'Panda',
+    audio: 'Audies/Animals_words/15_panda.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/16_koala.png',
+    textenglish: 'Koala',
+    texItliano: 'Koala',
+    audio: 'Audies/Animals_words/16_koala.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/17_fox.png',
+    textenglish: 'Fox',
+    texItliano: 'Volpe',
+    audio: 'Audies/Animals_words/17_volpe.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/18_wolf.png',
+    textenglish: 'Wolf',
+    texItliano: 'Lupo',
+    audio: 'Audies/Animals_words/18_lupo.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/19_frog.png',
+    textenglish: 'Frog',
+    texItliano: 'Rana',
+    audio: 'Audies/Animals_words/19_rana.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/20_turtle.png',
+    textenglish: 'Turtle',
+    texItliano: 'Tartaruga',
+    audio: 'Audies/Animals_words/20_tartaruga.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/21_snake.png',
+    textenglish: 'Snake',
+    texItliano: 'Serpente',
+    audio: 'Audies/Animals_words/21_serpente.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/22_fish.png',
+    textenglish: 'Fish',
+    texItliano: 'Pesce',
+    audio: 'Audies/Animals_words/22_pesce.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/23_dolphin.png',
+    textenglish: 'Dolphin',
+    texItliano: 'Delfino',
+    audio: 'Audies/Animals_words/23_delfino.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/24_whale.png',
+    textenglish: 'Whale',
+    texItliano: 'Balena',
+    audio: 'Audies/Animals_words/24_balena.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/25_bird.png',
+    textenglish: 'Bird',
+    texItliano: 'Uccello',
+    audio: 'Audies/Animals_words/25_uccello.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/26_owl.png',
+    textenglish: 'Owl',
+    texItliano: 'Gufo',
+    audio: 'Audies/Animals_words/26_gufo.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/27_penguin.png',
+    textenglish: 'Penguin',
+    texItliano: 'Pinguino',
+    audio: 'Audies/Animals_words/27_pinguino.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/28_chicken.png',
+    textenglish: 'Chicken',
+    texItliano: 'Pollo',
+    audio: 'Audies/Animals_words/28_gallina.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/29_butterfly.png',
+    textenglish: 'Butterfly',
+    texItliano: 'Farfalla',
+    audio: 'Audies/Animals_words/29_farfalla.mp3',
+  ),
+  model(
+    image: 'assets/Images/animals_icons/animals/30_bee.png',
+    textenglish: 'Bee',
+    texItliano: 'Ape',
+    audio: 'Audies/Animals_words/30_ape.mp3',
+  ),
+];
+
+
+
